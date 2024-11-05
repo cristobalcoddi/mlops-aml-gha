@@ -29,13 +29,13 @@ jobs:
     # Login to Azure
     - name: Azure Login
       id: azure_login
-      uses: azure/login@v4 # azure/login@v1 (old)
+      uses: azure/login@v2 # azure/login@v1 (old)
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     
     # Deploys Azure resources 
     - name: Deploy Azure resources
-      uses: azure/CLI@v4 # azure/CLI@v1 (old)
+      uses: azure/CLI@v2 # azure/CLI@v1 (old)
       with:
         azcliversion: latest
         inlineScript: |
