@@ -12,5 +12,6 @@ dependencies:
     - inference-schema==1.8 # Versión más reciente de azureml-schema
     - inference-schema[numpy-support] # sin versión...
 channels:
+  - defaults
+  - anaconda
   - conda-forge
-  - defaults # re-run
