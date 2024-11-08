@@ -4,13 +4,13 @@
 name: deployment_env
 dependencies:
   - python=3.10
-  - scikit-learn=1.2  # actualiza a una versión más reciente compatible con Python 3.10
-  - numpy=1.24  # actualiza a una versión más reciente compatible con Python 3.10
+  - scikit-learn=1.5.2  # Actualizado a la versión más reciente compatible con Python 3.10
+  - numpy=2.1.3  # Versión más reciente de numpy compatible con Python 3.10
   - pip:
-    - azureml-defaults==1.41.0
-    - azureml-monitoring==0.1.0a18
-    - inference-schema==1.0.2
-    - inference-schema[numpy-support]==1.0.2
+    - azureml-defaults==1.58.0  # Versión más reciente de azureml-defaults compatible con Python 3.10
+    - azureml-monitoring==0.1.0a21 # Versión más reciente de azureml-monitoring
+    - inference-schema==1.8 # Versión más reciente de azureml-schema
+    - inference-schema[numpy-support] # sin versión...
 channels:
   - conda-forge
   - defaults
