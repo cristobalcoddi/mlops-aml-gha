@@ -12,4 +12,4 @@ dependencies:
 channels:
   - defaults
   - anaconda
-  - conda-forge
+  - conda-forge # retry
