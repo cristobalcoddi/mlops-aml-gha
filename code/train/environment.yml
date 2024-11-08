@@ -4,11 +4,11 @@
 name: training_env
 dependencies:
   - python=3.10  # Asegúrate de usar Python 3.10
-  - scikit-learn=1.2  # Actualizado a la versión más reciente compatible
-  - matplotlib=3.6  # Actualizado a una versión compatible con Python 3.10
-  - numpy=1.24  # Versión más reciente de numpy
+  - scikit-learn=1.5.2  # Actualizado a la versión más reciente compatible con Python 3.10
+  - matplotlib=3.9.2  # Actualizado a una versión compatible con Python 3.10
+  - numpy=2.1.3  # Versión más reciente de numpy compatible con Python 3.10
   - pip:
-    - azureml-defaults==1.41.0  # Versión más reciente de azureml-defaults compatible
+    - azureml-defaults==1.58.0  # Versión más reciente de azureml-defaults compatible con Python 3.10
 channels:
   - conda-forge
   - defaults
