@@ -42,7 +42,7 @@ jobs:
       # Deploy your model to dev (this is optional)
       - name: Dev Deploy
         id: aml_dev_deploy
-        uses: Azure/aml-deploy@v2
+        uses: Azure/aml-deploy@v1
         with:
             azure_credentials: ${{ secrets.AZURE_CREDENTIALS }}
             model_name:  "${{ steps.aml_registermodel.outputs.model_name }}"
