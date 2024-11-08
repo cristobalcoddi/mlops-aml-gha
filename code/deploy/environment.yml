@@ -13,5 +13,5 @@ dependencies:
     - inference-schema[numpy-support] # sin versión...
 channels:
   - defaults
-  - anaconda # re-run
+  - anaconda # re-run-2
   - conda-forge
